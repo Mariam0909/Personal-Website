@@ -26,10 +26,10 @@ h1 {
 }
 
 div {
-  padding-top: 0px;
-  padding-right: 100px;
+  padding-top: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
-  padding-left: 100px;
+  padding-left: 10px;
 }
 
 /*TODO: Add styling rules for the text and images on your website.*/
@@ -53,6 +53,24 @@ h2 {
   text-decoration: line-through;
 }
 
+h1 {
+  text-shadow: 3px 4px white;
+}
+
+
+
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
+ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 20;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #F0F8FF;
+}
 
 /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;*/
+display:flex;
+justify-content:center;
