@@ -26,7 +26,7 @@ h1 {
 }
 
 div {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -68,9 +68,28 @@ ul {
 
 ul {
   list-style-type: none;
-  background-color: #F0F8FF;
+  background-color: #E6E6FA;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 1.1em;
 }
 
 /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;*/
 display:flex;
 justify-content:center;
+
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
